@@ -50,16 +50,25 @@ let negvalue = -value
 let str1 = "Hello"
 let str2 = " Navneet"
 let str3 = str1 + str2 // or we can directly write console.log(str1 + str2)
-console.log(str3)
+// console.log(str3)
 
-console.log("1" + 2);  // 12
-console.log(1 + "2");  // 12
-console.log("1" + "2");  //12
-console.log("1" + 2 + 2);  //122 //if the first value is in string then it will treat all as string
-console.log(1 + 2 +"2");   //32
-console.log(1+2+null);    //3
+// console.log("1" + 2);  // 12
+// console.log(1 + "2");  // 12
+// console.log("1" + "2");  //12
+// console.log("1" + 2 + 2);  //122 //if the first value is in string then it will treat all as string
+// console.log(1 + 2 +"2");   //32
+// console.log(1+2+null);    //3
 
-console.log(true);   //true
-console.log(+true);   // 1
-console.log(true+);    //error
-console.log(+"");     // 0
+// console.log(true);   //true   //this is not recommeded
+// console.log(+true);   // 1   //this is not recommeded
+// console.log(true+);    //error   //this is not recommeded
+// console.log(+"");     // 0     //this is not recommeded
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2
+
+let gameCounter= 100
+++gameCounter;  //prefix
+gameCounter++;   //postfix  //study these topics at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+console.log(gameCounter);  
+
