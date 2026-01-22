@@ -29,5 +29,32 @@ any number greater than 0 = true
 
 let someNumber = 22
 let convertToString = String (someNumber)
-console.log(convertToString);
-console.log(typeof convertToString)
+// console.log(convertToString);
+// console.log(typeof convertToString)
+
+// *********operations*********
+
+// goto tc39.es,  =>7, abstract operations
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+ 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Navneet"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2);  // 12
+console.log(1 + "2");  // 12
+console.log("1" + "2");  //12
+console.log("1" + 2 + 2);  //122
+console.log(1 + 2 +"2");   //32
+
