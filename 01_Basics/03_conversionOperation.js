@@ -11,7 +11,7 @@
 let valueInNumber = Number(score) // it will convert the datatype to Number
 
 // console.log(typeof valueInNumber); //it checks the type
-// console.log(valueInNumber) //it checks the number, if the type is number, but here there is not a number, there is 33sdfv, so it will show Not A Number
+// console.log(valueInNumber) //it checks the number, if the type is number, but here there is not a number, there is 33sdfv, so it will show Not A Number (NaN)
 
 let isLoggedIn = null
 let convert = Boolean(isLoggedIn)
