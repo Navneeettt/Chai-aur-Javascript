@@ -35,5 +35,20 @@ console.log(typeof bigNumber);  // BigInt
 /*
 Array
 Object
-Functional
+Functions
 */
+
+// Array
+const heros = ["Army", "Ranbir", "Akshay"]
+
+// Object
+let myObj = {
+    name: "Navneet",
+    age: 22
+}
+
+// Functions
+const myFunction = function(){
+    console.log("This is a function");    
+    
+}
