@@ -14,11 +14,32 @@ console.log(profileName.toUpperCase());
 console.log(profileName.charAt(2));
 console.log(profileName.indexOf(`e`));
 
-const newString = profileName.substring(0, 4);
+const newString = profileName.substring(0, 4);  //Hite
 console.log(newString);
 
-const anotherString = profileName.slice(-7, 4);
+const anotherString = profileName.slice(-7, 4);  //ite
 console.log(anotherString);
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
+const newStringOne = "   Navneet     "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://navneet.com/navneet%20mishra"
+
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('hitesh'));
+
+const newName = new String("Navneet-Mishra-Value-Depend")
+
+console.log(newName.split('-'));
+console.log(newName.split('-',2));
+
+
+
+
+
+
 
 
 
