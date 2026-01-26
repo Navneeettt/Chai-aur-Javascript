@@ -33,3 +33,4 @@ console.log(anotherDate.getDate());    //26
 anotherDate.toLocaleString(`default`, {
     weekday: "long",
 })
+console.log(anotherDate);
