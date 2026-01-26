@@ -30,7 +30,7 @@ console.log(anotherDate.getMonth());  // 0-Jan
 console.log(anotherDate.getDay());    // 1-Mon
 console.log(anotherDate.getDate());    //26
 
-anotherDate.toLocaleString(`default`, {
+
+console.log(anotherDate.toLocaleString(`default`, {
     weekday: "long",
-})
-console.log(anotherDate);
+}));
