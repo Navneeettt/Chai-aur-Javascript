@@ -37,7 +37,7 @@ console.log(typeof newArr);  // string
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3)
+const myn1 = myArr.slice(1,3)  // both values are index but it will not include the range means it will not include the 3rd index in the output
 console.log(myn1);
 console.log("B", myArr);
 
