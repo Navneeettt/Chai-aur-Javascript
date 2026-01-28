@@ -14,10 +14,10 @@ console.log(profileName.toUpperCase());
 console.log(profileName.charAt(2));
 console.log(profileName.indexOf(`e`));
 
-const newString = profileName.substring(0, 4);  //Hite
+const newString = profileName.substring(0, 4);  //Hite  // do not allow -ve index
 console.log(newString);
 
-const anotherString = profileName.slice(-7, 4);  //ite
+const anotherString = profileName.slice(-7, 4);  //ite  // it allow -ve index
 console.log(anotherString);
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
 const newStringOne = "   Navneet     "
